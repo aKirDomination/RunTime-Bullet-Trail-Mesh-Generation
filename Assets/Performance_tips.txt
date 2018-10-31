@@ -1,0 +1,5 @@
+
+----------------------------------
+ProjectileTrailRenderer performance tips.
+- Skip lines of vertices to reduce polycount
+- Generate and combine meshes on GPU with Compute Shader. It will absolate current solution with generating on CPU and GPU Instancing.
